@@ -226,7 +226,7 @@ javascript: (async () => {
         let i = 0;
 
         for (const [k, v] of Object.entries(hacks[game])) {
-            //hacksmsg = hacksmsg + `${k} `;
+            /*hacksmsg = hacksmsg + `${k} `;*/
             i++;
         };
 
