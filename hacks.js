@@ -235,14 +235,14 @@ javascript: (async () => {
         let hack = prompt(selectHackMsg + "\n" + hacksmsg);
 
         if (i === 0) return;
-        //if (hacks[game][hack]) {
+        /*if (hacks[game][hack]) {
         //    hacks[game][hack](reactHandler).catch((reason) => {
         //        alert(reason.message + "\n" + reason);
 
        //     })
-        //} else {
+        //} else {*/
             alert('This game does not have a hack called "' + hack + '"');
-        //}
+        /*}*/
     } else {
         alert('You must be on play.blooket.com to use this!');
     }
